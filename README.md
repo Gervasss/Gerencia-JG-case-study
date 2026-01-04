@@ -4,6 +4,13 @@
 
 # 🏆 Gerencia JG – Sistema de Gestão Empresarial
 
+Este repositório documenta o desenvolvimento do sistema **Gerência Pousada**, uma solução Full Stack projetada para centralizar a gestão operacional, desde o controle de hóspedes até o gerenciamento estratégico de estoque e reservas.
+
+> **Nota:** O código-fonte original deste projeto é privado. Este documento detalha a arquitetura, funcionalidades e o impacto da solução no dia a dia operacional.
+
+---
+## 📝 Visão Geral do Projeto
+
 O **Gerencia JG** é um ecossistema de gestão (ERP) completo, desenvolvido para a empresa *JG Materiais Esportivos*. O sistema centraliza a operação administrativa, financeira e logística em uma plataforma única, eliminando o uso de planilhas e papéis.
 
 ---
