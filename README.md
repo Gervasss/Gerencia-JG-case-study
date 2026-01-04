@@ -1,0 +1,1 @@
+# Gerencia-JG-case-study
