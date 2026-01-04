@@ -66,6 +66,27 @@ A "Central de Comando" do sistema. Reúne informações críticas de todas as ab
 
 ---
 
+## 📂 Estrutura de Pastas
+
+Organização baseada no padrão de escalabilidade adotado no projeto:
+
+```text
+src/
+├── assets/          # Recursos estáticos (Imagens/Ícones)
+├── components/      # Componentes de negócio reutilizáveis
+├── context/         # Contextos React para estados específicos
+├── firebase/        # Configuração e integração com Firebase
+├── pages/           # Módulos principais (AdminHome, Clientes, Sales, etc.)
+├── redux/           # Store e Slices para estado global
+├── routes/          # Definição e proteção de rotas
+├── stores/          # Gerenciamento de persistência de dados
+├── ui/              # Design System e componentes de interface base
+├── utils/           # Funções auxiliares e formatadores
+└── App.tsx          # Componente principal
+
+
+```
+
 ## 🏗️ Como Executar o Projeto
 
 Embora o código seja privado, abaixo descrevo as etapas necessárias para configurar e rodar uma aplicação com esta arquitetura (React + Firebase):
