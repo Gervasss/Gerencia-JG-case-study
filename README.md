@@ -183,7 +183,7 @@ A implementação do sistema **Gerencia JG** gerou uma transformação direta na
 
 Painel:
 
-<img width="886" height="422" alt="image" src="https://github.com/user-attachments/assets/353c3197-6dee-472e-b327-c1e690665d97" />
+<img width="886" height="498" alt="image" src="https://github.com/user-attachments/assets/ec53dc4f-a495-4324-ad0a-473173769d60" />
 
 Aba de Clientes:
 
@@ -214,6 +214,12 @@ Aba de Gastos:
 Aba de Documentos:
 
 <img width="886" height="419" alt="image" src="https://github.com/user-attachments/assets/922455bc-b44b-4827-b518-b74fd37a3f8f" />
+
+Aba de Relatórios:
+<img width="886" height="498" alt="image" src="https://github.com/user-attachments/assets/c98d3260-9891-4295-826a-49cd5c942161" />
+
+<img width="886" height="1142" alt="image" src="https://github.com/user-attachments/assets/693435cf-ec36-4fd2-97c4-980895c1c3a1" />
+
 
 
 
