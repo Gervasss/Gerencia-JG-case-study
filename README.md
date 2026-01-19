@@ -56,6 +56,77 @@ A "Central de Comando" do sistema. Reúne informações críticas de todas as ab
 * Upload de Notas Fiscais, Recibos e Contratos usando Firebase Storage.
 * Organização digital que facilita a consulta e auditoria contábil.
 
+  
+ ### 📊 Aba de Relatórios
+
+A aba Relatórios foi desenvolvida para fornecer uma visão financeira clara, organizada e exportável das vendas e gastos da empresa, permitindo a análise detalhada por mês e ano.
+
+🔎 Funcionalidades principais
+
+* Filtro por período
+  O usuário pode selecionar:
+
+  Mês
+
+  Ano
+  A partir dessa seleção, o sistema exibe exclusivamente os registros correspondentes ao período escolhido.
+
+* Resumo financeiro automático
+  Para o período selecionado, são calculados e exibidos:
+
+  Total de Entradas (Vendas)
+
+  Total de Saídas (Gastos)
+
+  Saldo final (Entradas − Saídas)
+  Os valores são atualizados dinamicamente conforme o filtro é alterado.
+
+* Listagem detalhada de Vendas
+  A tabela de vendas apresenta apenas as informações relevantes, de forma objetiva e padronizada:
+
+  Data (formatada no padrão brasileiro – dd/mm/aaaa)
+
+  Produto
+
+  Cliente
+
+  Quantidade
+
+  Valor (formatado em moeda brasileira – R$)
+
+* Listagem detalhada de Gastos
+  A tabela de gastos exibe:
+
+  Data (formato brasileiro)
+
+  Descrição
+
+  Categoria
+
+  Fornecedor
+
+  Valor (R$)
+
+* Atualização em tempo real
+  Os dados são sincronizados diretamente com o Firestore, garantindo que as informações exibidas estejam sempre atualizadas.
+
+### 📄 Exportação em PDF
+
+* A aba conta com a funcionalidade Exportar PDF, que gera automaticamente um relatório profissional contendo:
+
+  Cabeçalho com o nome da empresa JG Materiais Esportivos
+
+  Identificação do período (mês/ano)
+
+  Resumo financeiro (Entradas, Saídas e Saldo)
+
+  Tabela de Vendas
+
+  Tabela de Gastos
+
+  Layout padronizado com identidade visual na cor institucional #1E90FF
+
+ 
 ---
 
 ## 🛠️ Desafios Técnicos Solucionados
