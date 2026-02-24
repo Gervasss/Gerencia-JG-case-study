@@ -15,17 +15,44 @@ O **Gerencia JG** é um ecossistema de gestão (ERP) completo, desenvolvido para
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+# 🚀 Tecnologias Utilizadas
 
-O projeto utiliza o que há de mais moderno no desenvolvimento web para garantir performance e escalabilidade:
+O projeto utiliza o que há de mais moderno no desenvolvimento web para garantir performance, escalabilidade e qualidade de código:
 
-* **Frontend:** [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/)
-* **Linguagem:** [TypeScript](https://www.typescriptlang.org/) (Tipagem estática para maior segurança)
-* **Backend & Database:** [Firebase](https://firebase.google.com/) (Firestore para dados em tempo real e Storage para arquivos)
-* **Estilização:** [Styled Components](https://styled-components.com/)
-* **Gerenciamento de Estado:** React Hooks (Context API)
+### 💻 Frontend
+
+* **[React.js](https://reactjs.org/)** + **[Vite](https://vitejs.dev/)** — SPA moderna com build ultra rápido
+* **[TypeScript](https://www.typescriptlang.org/)** — Tipagem estática para maior segurança e previsibilidade
+
+### 🔥 Backend & Banco de Dados
+
+* **[Firebase](https://firebase.google.com/)**
+
+  * Firestore (dados em tempo real)
+  * Storage (armazenamento de arquivos)
+    
+
+### 🎨 Estilização
+
+* **[Styled Components](https://styled-components.com/)** — CSS-in-JS com escopo isolado
+
+  
+
+### 🧠 Gerenciamento de Estado
+
+* **React Hooks + Context API**
+
+
+
+## 🧪 Testes & Qualidade
+
+* **[Vitest](https://vitest.dev/)** — Test runner rápido e integrado ao Vite
+* **[Testing Library](https://testing-library.com/docs/react-testing-library/intro/)** — Testes focados no comportamento do usuário
+* **[@testing-library/jest-dom](https://github.com/testing-library/jest-dom)** — Matchers customizados para DOM
+* **[GitHub Actions](https://github.com/features/actions)** — CI automatizado para execução dos testes a cada commit
 
 ---
+
 
 ## 💡 Funcionalidades Principais
 
